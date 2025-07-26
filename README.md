@@ -27,6 +27,7 @@ Ce script HUD immersif pour serveur FiveM (ESX) affiche les jauges de **faim**, 
   ```sql
   ALTER TABLE users ADD COLUMN `status` LONGTEXT DEFAULT NULL;
   ```
+  4. 🛠️ **La configuration du HUD (fréquence de mise à jour, perte de faim/soif/alcool, etc.) est entièrement modifiable dans le fichier `config.lua`.**
 
 ## 🛠️ Dépendances
 
