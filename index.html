@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HUD Moderne</title>
+</head>
+<body>
+  <div id="hud">
+    <!-- Faim -->
+    <div class="status hunger">
+      <img src="hunger.svg" class="icon" />
+      <div class="bar-container">
+        <div class="bar" id="hunger-bar"></div>
+      </div>
+    </div>
+
+    <!-- Soif -->
+    <div class="status thirst">
+      <img src="water.svg" class="icon" />
+      <div class="bar-container">
+        <div class="bar" id="thirst-bar"></div>
+      </div>
+    </div>
+
+    <!-- Alcool -->
+    <div class="status alcohol" style="display: none;">
+      <img src="alcohol.svg" class="icon" />
+      <div class="bar-container">
+        <div class="bar" id="alcohol-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
